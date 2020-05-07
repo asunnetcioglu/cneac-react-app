@@ -1,0 +1,48 @@
+footer {
+  padding:2rem 0;
+  text-align: center;
+  border-top: .1rem solid $primary;
+
+
+  ul,li {
+    margin:0;
+    padding: 0;
+    display: block;
+  }
+
+  li {
+    margin:1rem 0;
+    a {
+      display: inline-block;
+      margin: 0 1.2rem;
+      text-transform: uppercase;
+      color: $gray-800;
+      font-size: .9rem;
+      font-weight: bold;
+    }
+    &:first-child {
+      margin-bottom:2rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  footer {
+    svg {
+      fill: $black;
+    }
+
+    padding:2rem 0;
+
+    ul,li {
+      display: inline-block;
+    }
+
+    li {
+      margin:0;
+      &:first-child {
+        margin-bottom:0;
+      }
+    }
+  }
+}

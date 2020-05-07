@@ -1,0 +1,49 @@
+/* Colors */
+$white:#fff;
+$gray-100: #f1f1f1;
+$gray-200: #d1d1d1;
+$gray-600: #848484;
+$gray-800: #444;
+$pink: #fe4e50;
+$primary: $pink !important;
+$light: $white;
+$lightpink :#ffcdcd;
+
+/* Typography */
+$font-family-sans-serif:"Montserrat", Arial, sans-serif;
+$font-size-base:.85rem;
+$font-size-lg: $font-size-base * 1.1;
+$font-size-sm: $font-size-base * .875;
+
+/* Components */
+
+$border-radius: 10rem;
+$border-radius-lg: 10rem;
+$border-radius-sm: 10rem;
+
+//Input
+$input-border-radius: .2rem;
+
+//Button
+$btn-font-weight: 700;
+$input-btn-font-size-lg: $font-size-lg;
+$input-btn-padding-x:1.7rem;
+$input-btn-padding-y:.5rem;
+$input-btn-padding-x-lg:3rem;
+$input-btn-padding-y-lg:.80rem;
+
+//Dropdown
+$dropdown-border-radius: .5rem;
+
+//Badge
+$badge-font-size:.6rem;
+$badge-font-weight:700;
+$badge-padding-y:.3rem;
+$badge-padding-x:.5rem;
+$badge-border-radius:$border-radius;
+$badge-pill-padding-x:.8rem;
+
+
+//Filter
+$image-filter: rgba(254,78,80,.5);
+

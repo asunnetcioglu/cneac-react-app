@@ -1,0 +1,116 @@
+.header {
+  padding-top: 24px;
+  &--home {
+
+    background-image: url('/images/banner.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar {
+    padding: 0;
+    margin:0 auto;
+
+    background-color: rgba($white, $alpha: .5);
+    box-shadow: 0 0 2rem rgba($color:$black, $alpha: .15);
+
+    transition: border-radius .5s ease-in-out, background-color .5s ease-in-out;
+
+    .container {
+      padding:.6rem .7rem;
+    }
+
+    .navbar-brand {
+      padding: 0 .5rem;
+    }
+
+    .navbar-nav {
+      li.nav-item {
+        padding: .5rem;
+        a {
+          font-size: .7rem;
+
+          &.nav-link {
+            text-transform: uppercase;
+            font-weight: bold;
+            color:$white;
+          }
+          &:hover,:focus {
+            text-decoration: underline;
+          }
+        }
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      outline: none;
+      border: .05rem solid transparent;
+
+      &[aria-expanded=true] {
+        border-color:$white;
+      }
+
+    }
+
+    &.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      max-width: 100%;
+      z-index: 3;
+      background-color: rgba($white, $alpha: 1);
+      border-radius: 0;
+
+      .navbar-brand {
+        padding: 0 .5rem;
+      }
+
+
+      img {
+        filter: invert(1);
+      }
+
+
+      .navbar-nav {
+        li.nav-item {
+          a.nav-link {
+            color:$gray-800;
+          }
+        }
+      }
+
+      .navbar-toggler {
+        &[aria-expanded=true] {
+          border-color:$gray-600;
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .header .navbar {
+    max-width: 1140px;
+    .navbar-nav {
+      li.nav-item {
+        padding: 0 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .header .navbar {
+    border-radius: 2rem;
+  }
+  .header--home {
+    padding-top: 48px;
+    background-position: 0 -3.2rem;
+  }
+}

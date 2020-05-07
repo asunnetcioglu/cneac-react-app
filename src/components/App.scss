@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/utilities";
+@import "~slick-carousel/slick/slick";
+
+@import "src/styles/_variables.scss";
+@import "src/styles/header.scss";
+@import "src/styles/content.scss";
+@import "src/styles/footer.scss";
+@import "src/styles/buttons.scss";
+
+
